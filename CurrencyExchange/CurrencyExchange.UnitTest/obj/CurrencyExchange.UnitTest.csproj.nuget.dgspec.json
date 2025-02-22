@@ -1,0 +1,360 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.UnitTest\\CurrencyExchange.UnitTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.Application\\CurrencyExchange.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.Application\\CurrencyExchange.Application.csproj",
+        "projectName": "CurrencyExchange.Application",
+        "projectPath": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.Application\\CurrencyExchange.Application.csproj",
+        "packagesPath": "C:\\Users\\rraju\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\Local Nugets": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://braveenergy.pkgs.visualstudio.com/_packaging/BravePackages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/braveenergy/_packaging/BravePackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.Core\\CurrencyExchange.Core.csproj": {
+                "projectPath": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.Core\\CurrencyExchange.Core.csproj"
+              },
+              "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.DTO\\CurrencyExchange.DTO.csproj": {
+                "projectPath": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.DTO\\CurrencyExchange.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.Core\\CurrencyExchange.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.Core\\CurrencyExchange.Core.csproj",
+        "projectName": "CurrencyExchange.Core",
+        "projectPath": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.Core\\CurrencyExchange.Core.csproj",
+        "packagesPath": "C:\\Users\\rraju\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\Local Nugets": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://braveenergy.pkgs.visualstudio.com/_packaging/BravePackages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/braveenergy/_packaging/BravePackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.DTO\\CurrencyExchange.DTO.csproj": {
+                "projectPath": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.DTO\\CurrencyExchange.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.DTO\\CurrencyExchange.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.DTO\\CurrencyExchange.DTO.csproj",
+        "projectName": "CurrencyExchange.DTO",
+        "projectPath": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.DTO\\CurrencyExchange.DTO.csproj",
+        "packagesPath": "C:\\Users\\rraju\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\Local Nugets": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://braveenergy.pkgs.visualstudio.com/_packaging/BravePackages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/braveenergy/_packaging/BravePackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.UnitTest\\CurrencyExchange.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.UnitTest\\CurrencyExchange.UnitTest.csproj",
+        "projectName": "CurrencyExchange.UnitTest",
+        "projectPath": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.UnitTest\\CurrencyExchange.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\rraju\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rraju\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "E:\\Local Nugets": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://braveenergy.pkgs.visualstudio.com/_packaging/BravePackages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/braveenergy/_packaging/BravePackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.Application\\CurrencyExchange.Application.csproj": {
+                "projectPath": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.Application\\CurrencyExchange.Application.csproj"
+              },
+              "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.Core\\CurrencyExchange.Core.csproj": {
+                "projectPath": "C:\\Users\\rraju\\Downloads\\CurrencyExchange\\CurrencyExchange.Core\\CurrencyExchange.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.8.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.8.2, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.3, )"
+            },
+            "Microsoft.TestPlatform.TestHost": {
+              "target": "Package",
+              "version": "[17.13.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "xunit.assert": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
